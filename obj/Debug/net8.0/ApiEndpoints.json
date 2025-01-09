@@ -1,0 +1,212 @@
+[
+  {
+    "ContainingType": "ez_parking_api.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.EstacionamentosController",
+    "Method": "GetEstacionamentos",
+    "RelativePath": "api/Estacionamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.EstacionamentosController",
+    "Method": "AddEstacionamento",
+    "RelativePath": "api/Estacionamentos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estacionamento",
+        "Type": "ez_parking_api.Models.Estacionamento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.EstacionamentosController",
+    "Method": "ApagarEstacionamento",
+    "RelativePath": "api/Estacionamentos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.RegistrosController",
+    "Method": "GetRegistros",
+    "RelativePath": "api/Registros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.RegistrosController",
+    "Method": "AddRegistro",
+    "RelativePath": "api/Registros",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registro",
+        "Type": "ez_parking_api.Models.Registro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.RegistrosController",
+    "Method": "ApagarRegistro",
+    "RelativePath": "api/Registros",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.UsersController",
+    "Method": "AddUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ez_parking_api.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[ez_parking_api.Models.User, ez-parking-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "filterColumn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filterValue",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.UsersController",
+    "Method": "ApagarUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.VeiculosController",
+    "Method": "GetVeiculos",
+    "RelativePath": "api/Veiculos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.VeiculosController",
+    "Method": "RegistrarVeiculo",
+    "RelativePath": "api/Veiculos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "veiculo",
+        "Type": "ez_parking_api.Models.Veiculo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.VeiculosController",
+    "Method": "ApagarVeiculo",
+    "RelativePath": "api/Veiculos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

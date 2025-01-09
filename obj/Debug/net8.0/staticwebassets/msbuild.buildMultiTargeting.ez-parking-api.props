@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ez-parking-api.props" />
+</Project>
