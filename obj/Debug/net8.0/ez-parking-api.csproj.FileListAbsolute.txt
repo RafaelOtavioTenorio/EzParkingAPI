@@ -168,3 +168,4 @@ E:\Projetos\Next.JS\ParkingApp\ez-parking-api\obj\Debug\net8.0\ez-parking-api.ge
 E:\Projetos\Next.JS\ParkingApp\ez-parking-api\obj\Debug\net8.0\ref\ez-parking-api.dll
 E:\Projetos\Next.JS\ParkingApp\ez-parking-api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 E:\Projetos\Next.JS\ParkingApp\ez-parking-api\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Projetos\Next.JS\ParkingApp\ez-parking-api\obj\Debug\net8.0\ez-parking-api.sourcelink.json

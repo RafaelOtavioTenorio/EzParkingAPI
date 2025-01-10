@@ -23,7 +23,7 @@ namespace ez_parking_api.Controllers
             var users = _context.Users.ToList();
             return Ok(users);
         }
-        [HttpGet("/{id}")]
+        [HttpGet("/{login}")]
         public async Task<IActionResult> GetUser(string Login)
         {
             var user = await _context.Users.FindAsync(Login);

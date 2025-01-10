@@ -2,14 +2,14 @@
   {
     "ContainingType": "ez_parking_api.Controllers.UsersController",
     "Method": "GetUser",
-    "RelativePath": "{id}",
+    "RelativePath": "{login}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "Login",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ez-parking-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31ee4d354c3d03ab375bf836c4530142e4479cea")]
 [assembly: System.Reflection.AssemblyProductAttribute("ez-parking-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ez-parking-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
