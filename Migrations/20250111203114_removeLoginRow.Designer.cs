@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ez_parking_api.Data;
 
@@ -11,9 +12,11 @@ using ez_parking_api.Data;
 namespace ez_parking_api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250111203114_removeLoginRow")]
+    partial class removeLoginRow
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -97,9 +100,8 @@ namespace ez_parking_api.Migrations
                     b.Property<bool>("Active")
                         .HasColumnType("bit");
 
-                    b.Property<string>("CPF")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CPF")
+                        .HasColumnType("int");
 
                     b.Property<DateOnly>("DataNascimento")
                         .HasColumnType("date");
@@ -118,10 +120,6 @@ namespace ez_parking_api.Migrations
 
                     b.Property<int>("Tipo")
                         .HasColumnType("int");
-
-                    b.PrimitiveCollection<string>("Veiculos")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
 
@@ -158,9 +156,14 @@ namespace ez_parking_api.Migrations
                     b.Property<int>("RegAtualID")
                         .HasColumnType("int");
 
+                    b.Property<int?>("UserID")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
 
                     b.HasIndex("RegAtualID");
+
+                    b.HasIndex("UserID");
 
                     b.ToTable("Veiculos", (string)null);
                 });
@@ -188,12 +191,21 @@ namespace ez_parking_api.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("ez_parking_api.Models.User", null)
+                        .WithMany("Veiculos")
+                        .HasForeignKey("UserID");
+
                     b.Navigation("RegAtual");
                 });
 
             modelBuilder.Entity("ez_parking_api.Models.Estacionamento", b =>
                 {
                     b.Navigation("Historico");
+                });
+
+            modelBuilder.Entity("ez_parking_api.Models.User", b =>
+                {
+                    b.Navigation("Veiculos");
                 });
 
             modelBuilder.Entity("ez_parking_api.Models.Veiculo", b =>

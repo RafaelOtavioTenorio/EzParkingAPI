@@ -1,21 +1,5 @@
 [
   {
-    "ContainingType": "ez_parking_api.Controllers.UsersController",
-    "Method": "GetUser",
-    "RelativePath": "{login}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Login",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "ez_parking_api.Controllers.EstacionamentosController",
     "Method": "GetEstacionamentos",
     "RelativePath": "api/Estacionamentos",
@@ -163,6 +147,22 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ez_parking_api.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/Users/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

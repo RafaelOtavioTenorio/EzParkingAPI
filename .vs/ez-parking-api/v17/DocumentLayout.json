@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|e:\\projetos\\next.js\\parkingapp\\ez-parking-api\\controllers\\registroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|solutionrelative:controllers\\registroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|e:\\projetos\\next.js\\parkingapp\\ez-parking-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|e:\\projetos\\next.js\\parkingapp\\ez-parking-api\\services\\uservalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|solutionrelative:services\\uservalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Migrations\\20250112074446_alterarTipoListaVeiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250112074446_alterarTipoListaVeiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|e:\\projetos\\next.js\\parkingapp\\ez-parking-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|e:\\projetos\\next.js\\parkingapp\\ez-parking-api\\controllers\\estacionamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|solutionrelative:controllers\\estacionamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|e:\\projetos\\next.js\\parkingapp\\ez-parking-api\\controllers\\registroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|solutionrelative:controllers\\registroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65E22CDC-C4F3-414B-B991-D6BE4D661DBC}|ez-parking-api.csproj|e:\\projetos\\next.js\\parkingapp\\ez-parking-api\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,48 +42,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250112074446_alterarTipoListaVeiculos.cs",
+              "DocumentMoniker": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Migrations\\20250112074446_alterarTipoListaVeiculos.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250112074446_alterarTipoListaVeiculos.cs",
+              "ToolTip": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Migrations\\20250112074446_alterarTipoListaVeiculos.cs",
+              "RelativeToolTip": "Migrations\\20250112074446_alterarTipoListaVeiculos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T07:44:46.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UserValidationService.cs",
+              "DocumentMoniker": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Services\\UserValidationService.cs",
+              "RelativeDocumentMoniker": "Services\\UserValidationService.cs",
+              "ToolTip": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Services\\UserValidationService.cs",
+              "RelativeToolTip": "Services\\UserValidationService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T07:37:40.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T20:19:32.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAlwAwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:13:44.191Z"
+              "WhenOpened": "2025-01-07T10:13:44.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "RegistrosController.cs",
               "DocumentMoniker": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Controllers\\RegistrosController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegistrosController.cs",
               "ToolTip": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Controllers\\RegistrosController.cs",
               "RelativeToolTip": "Controllers\\RegistrosController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T10:00:51.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EstacionamentosController.cs",
               "DocumentMoniker": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Controllers\\EstacionamentosController.cs",
               "RelativeDocumentMoniker": "Controllers\\EstacionamentosController.cs",
               "ToolTip": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Controllers\\EstacionamentosController.cs",
               "RelativeToolTip": "Controllers\\EstacionamentosController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:58:05.526Z"
+              "WhenOpened": "2025-01-07T02:58:05.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "VeiculosController.cs",
               "DocumentMoniker": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Controllers\\VeiculosController.cs",
               "RelativeDocumentMoniker": "Controllers\\VeiculosController.cs",
@@ -79,7 +132,8 @@
               "RelativeToolTip": "Controllers\\VeiculosController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:22:20.11Z"
+              "WhenOpened": "2025-01-07T02:22:20.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -87,9 +141,9 @@
               "Title": "UsersController.cs",
               "DocumentMoniker": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Controllers\\UsersController.cs*",
-              "RelativeToolTip": "Controllers\\UsersController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAADgvxkAAAAZAAAAAAAAAA==",
+              "ToolTip": "E:\\Projetos\\Next.JS\\ParkingApp\\ez-parking-api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T01:45:26.482Z",
               "EditorCaption": ""

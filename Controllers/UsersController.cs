@@ -1,5 +1,6 @@
 ﻿using ez_parking_api.Data;
 using ez_parking_api.Models;
+using ez_parking_api.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +12,12 @@ namespace ez_parking_api.Controllers
     public class UsersController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly UserValidationService _validationService;
 
-        public UsersController(AppDbContext context)
+        public UsersController(AppDbContext context, UserValidationService validationService)
         {
             _context = context;
+            _validationService = validationService;
         }
 
         [HttpGet]
@@ -23,10 +26,10 @@ namespace ez_parking_api.Controllers
             var users = _context.Users.ToList();
             return Ok(users);
         }
-        [HttpGet("/{login}")]
-        public async Task<IActionResult> GetUser(string Login)
+        [HttpGet("{email}")]
+        public async Task<IActionResult> GetUser(string email)
         {
-            var user = await _context.Users.FindAsync(Login);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
             if (user == null)
             {
                 return BadRequest("Usuário não encontrado");
@@ -38,9 +41,15 @@ namespace ez_parking_api.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Users.Add(user);
-                await _context.SaveChangesAsync();
-                return CreatedAtAction(nameof(GetUsers), new { id = user.ID }, user);
+                string cpf = user.CPF;
+                bool cpfValido = _validationService.ValidarCPF(cpf);
+                if(cpfValido)
+                {
+                    _context.Users.Add(user);
+                    await _context.SaveChangesAsync();
+                    return CreatedAtAction(nameof(GetUsers), new { id = user.ID }, user);
+                }
+                return BadRequest("CPF inválido.");
             }
             return BadRequest(ModelState);
         }
@@ -125,5 +134,6 @@ namespace ez_parking_api.Controllers
             await _context.SaveChangesAsync();
             return NoContent();
         }
+        
     }
 }
