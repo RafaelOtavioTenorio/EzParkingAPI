@@ -18,7 +18,7 @@ Clone o repositório do backend:
 git clone -b develop https://github.com/RafaelOtavioTenorio/EzParkingAPI.git
 ```
 
-2. Configurar o Backend (.NET 6 API)
+### 2. Configurar o Backend (.NET 6 API)
 Navegue para a pasta do backend:
 ```bash
 cd EzParkingAPI
@@ -41,7 +41,7 @@ dotnet run
 ```
 A API estará rodando em `http://localhost:5000`.
 
-3. Acessar a Documentação (Swagger)
+### 3. Acessar a Documentação (Swagger)
 A documentação da API estará disponível em http://localhost:5000/swagger após rodar a API. Isso permite testar as rotas diretamente no navegador.
 
 📌 Endpoints Importantes
