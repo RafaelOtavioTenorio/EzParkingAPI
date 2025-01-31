@@ -11,8 +11,8 @@ EzParkingAPI é a API backend responsável por fornecer todos os serviços do si
 - Swagger: Para documentação interativa da API.
 - JWT: Para autenticação e segurança.
 
-##📂 Como Rodar o Projeto
-###1. Clonar o Repositório
+## 📂 Como Rodar o Projeto
+### 1. Clonar o Repositório
 Clone o repositório do backend:
 ```bash
 git clone -b develop https://github.com/RafaelOtavioTenorio/EzParkingAPI.git
